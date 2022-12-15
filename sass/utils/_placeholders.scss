@@ -1,0 +1,35 @@
+%body {
+  background-color: $header-b-color;
+  color: $primary-text-color;
+  font-family: $font-dominant;
+}
+
+%img {
+  display: block;
+}
+
+%container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+%link {
+  text-decoration: none;
+}
+
+%list {
+  list-style: none;
+}
+
+%text-elements {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,7 @@
+.container {
+@extend %body;
+@extend %container;
+display: flex;
+align-items: center;
+
+}
