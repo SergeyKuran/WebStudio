@@ -1,7 +1,9 @@
-.container {
+.page-header {
 @extend %body;
 @extend %container;
+
 display: flex;
 align-items: center;
 
+border-bottom: 1px solid $header-title-border-bottom;
 }
