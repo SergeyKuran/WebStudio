@@ -248,7 +248,7 @@ p {
   color: var(--header-bg-color);
 }
 
-.title {
+/* .title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -257,25 +257,25 @@ p {
   text-align: center;
 
   letter-spacing: 0.03em;
-}
+} */
 
 /* subtitle Studio page */
-.subtitle {
+/* .subtitle {
   margin-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-}
+} */
 
-.subtitle-text {
+/* .subtitle-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--secondary-text-color); */
 }
-
+/* 
 .items {
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -288,9 +288,9 @@ p {
   display: block;
 
   margin-bottom: 30px;
-}
+} */
 /* Subject Наші переваги */
-.subject {
+/* .subject {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -310,7 +310,7 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
-}
+} */
 
 /* size text header nav */
 .nav-stydio,
@@ -327,21 +327,21 @@ p {
   color: var(--primary-text-color);
 }
 
-.box-one {
+/* .box-one {
   padding-top: 0;
 }
 
 .box-second {
   background-color: var(--color-section);
-}
+} */
 
 /* current page
 .nav-up .current {
   color: var(--color-accent);
 } */
-.nav-up .item {
+/* .nav-up .item {
   position: relative;
-}
+} */
 
 /* .item .current::after {
   content: "";
@@ -381,28 +381,28 @@ p {
 } */
 /*  */
 
-.email,
+/* .email,
 .tel {
   display: flex;
   align-items: center;
 
   text-decoration: none;
 
-  color: var(--secondary-text-color);
+  color: var(--secondary-text-color); */
 }
 
 /* Наша команда */
-.our-team {
+/* .our-team {
   display: flex;
   min-width: 270px;
 
   color: var(--header-bg-color);
   background-color: var(--color-section);
-}
+} */
 
-.our-team .items + .items {
+/* .our-team .items + .items {
   margin-left: 30px;
-}
+} */
 
 /* Cоціальні мережі посилання svg Наша команда*/
 .social-ul {

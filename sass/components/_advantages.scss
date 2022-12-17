@@ -5,23 +5,23 @@
 
 .advantages__title--hidden {
   @extend %visibility-hidden;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  letter-spacing: 0.03em;
 }
 
 .advantages__group {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 30px;
-  height: 100%;
-  outline: 2px solid tomato;
+
   border-radius: 4px;
-}
-
-.advantages__list {
-  display: block;
-
-  outline: 2px solid tomato;
 }
 
 .advantages-picture {
@@ -40,15 +40,16 @@
   height: 70px;
 }
 
-.advantages-picture__title{
-font-weight: 700;
+.advantages-picture__title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
-.advantages-picture__text{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $color-text-secondary;}
+.advantages-picture__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $color-text-secondary;
+}
