@@ -78,37 +78,37 @@ p {
   margin-left: 50px;
 } */
 
-.nav-contact {
+/* .nav-contact {
   display: flex;
   margin-left: auto;
   align-items: center;
 
   color: var(--secondary-text-color);
-}
+} */
 
-.nav-icon {
+/* .nav-icon {
   transition: color 250ms var(--transition-timing-function-all-hover-focus),
     text-shadow 250ms var(--transition-timing-function-all-hover-focus),
     fill 250ms var(--transition-timing-function-all-hover-focus);
-}
+} */
 
-.nav-icon:hover,
+/* .nav-icon:hover,
 .nav-icon:focus {
   color: var(--color-accent);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 
-.email:hover > .icon-envelope,
+/* .email:hover > .icon-envelope,
 .email:focus > .icon-envelope,
 .tel:hover > .icon-smartphone,
 .tel:focus > .icon-smartphone {
   fill: currentColor;
-}
+} */
 
 /* відступ посилань хедер */
-.nav-contact li:not(:first-child) {
+/* .nav-contact li:not(:first-child) {
   margin-left: 50px;
-}
+} */
 
 /* logo
 .logo {
@@ -124,21 +124,21 @@ p {
 }
 
 /* секція падинги */
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-.list-section {
+/* .list-section {
   display: flex;
-}
+} */
 
 /* logo "Studio" color
 .logo-studio {
   color: var(--logo);
 } */
 
-.hero {
+/* .hero {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -157,22 +157,22 @@ p {
 }
 
 /* Hero title */
-.hero-title {
-  margin-top: 106px;
-  margin-left: auto;
+/* .hero-title {
+  margin-top: 106px; */
+  /* margin-left: auto;
   margin-right: auto;
 
   max-width: 696px;
-
-  font-weight: 900;
+/*  */
+  /* font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
-  color: var(--header-bg-color);
-}
+  letter-spacing: 0.06em; */
+  /* color: var(--header-bg-color); */
+/* } */ 
 
 /* Studio */
-.button-studio {
+/* .button-studio {
   padding: 10px 32px;
   margin-top: 30px;
 
@@ -194,23 +194,23 @@ p {
   color: var(--header-bg-color);
 
   cursor: pointer;
-}
+} */
 /* Title hidden */
-.title-hidden {
+/* .title-hidden {
   visibility: hidden;
 }
 
 .list-section {
   display: flex;
-}
+} */
 
-.list-section .item + .item {
+/* .list-section .item + .item {
   margin-left: 50px;
-}
+} */
 
-.list-img li:not(:first-child) {
+/* .list-img li:not(:first-child) {
   margin-left: 30px;
-}
+} */
 
 /* Чим займаємося */
 .list-img {
@@ -343,7 +343,7 @@ p {
   position: relative;
 }
 
-.item .current::after {
+/* .item .current::after {
   content: "";
   display: inline-block;
 
@@ -354,18 +354,18 @@ p {
   height: 4px;
 
   background-color: var(--color-accent);
-  border-radius: 2px;
+  border-radius: 2px; */
 }
 
-/* tel nav header */
+/* tel nav header
 .icon-envelope,
 .icon-smartphone {
   fill: var(--secondary-text-color);
   margin-right: 10px;
-}
+} */
 
 /* Після героя іконки через svg 4 шт */
-.item-icon {
+/* .item-icon {
   display: block;
   height: 120px;
   padding: 25px 100px;
@@ -373,12 +373,12 @@ p {
 
   border-radius: 4px;
   background-color: var(--color-section);
-}
+} */
 
-.icons {
+/* .icons {
   width: 70px;
   height: 70px;
-}
+} */
 /*  */
 
 .email,
@@ -608,8 +608,7 @@ p {
 .button:hover,
 .button:focus {
   border: 2px;
-  box-shadow: 0px 2px rgba(0, 0, 0, 0.12), 0px 1px rgba(0, 0, 0, 0.08),
-    0px 3px rgba(0, 0, 0, 0.1);
+  box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--header-bg-color);
   background-color: var(--color-accent);
 }

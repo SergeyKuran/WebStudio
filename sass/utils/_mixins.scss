@@ -1,0 +1,4 @@
+@mixin active($color, $shadow) {
+    color: $color-accent;
+    box-shadow: $color-box-shadow-form-button;
+}

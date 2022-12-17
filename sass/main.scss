@@ -1,6 +1,10 @@
 @import './utils/variables' ;
+@import './base/basic-parameters';
 @import './utils/placeholders';
+@import './utils/mixins';
 @import './components/page-header';
 @import './components/logo';
 @import './components/_nav-header';
-@import './components/_header-contact';
+@import './components/_contact-header';
+@import './components/hero';
+@import './components/advantages';

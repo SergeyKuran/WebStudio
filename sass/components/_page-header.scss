@@ -1,9 +1,10 @@
 .page-header {
-@extend %body;
-@extend %container;
+  border-bottom: 1px solid $color-border-bottom-header-title;
+}
 
-display: flex;
-align-items: center;
-
-border-bottom: 1px solid $header-title-border-bottom;
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  height: 100%;
 }
