@@ -3,7 +3,7 @@
 }
 
 .card-team {
-  display: flex;
+  @include flex;
   gap: 30px;
   min-width: 270px;
 
@@ -11,7 +11,7 @@
   background-color: $color-section;
 }
 
-.card-item__item {
+.card-team__item {
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -20,6 +20,7 @@
 }
 
 .card-team__title {
+  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;

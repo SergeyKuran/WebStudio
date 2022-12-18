@@ -1,11 +1,9 @@
-.section--bgrcolor{
-background-color: $color-section;}
-
-.section--padding-bottom{
-padding-bottom: 0;
+.clients {
+  @include flex;
+  flex-direction: column;
 }
 
-.card-title {
+.clients__title {
   margin-bottom: 50px;
 
   font-weight: 700;

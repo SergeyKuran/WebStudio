@@ -1,4 +1,10 @@
-@mixin active($color, $shadow) {
-    color: $color-accent;
-    box-shadow: $color-box-shadow-form-button;
+@mixin section($margin-top: 94px, $margin-bottom: 94px) {
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}
+
+@mixin flex($display: flex, $justify-content: center, $align-items: center){
+display: $display;
+justify-content: $justify-content;
+align-items: $align-items;
 }
