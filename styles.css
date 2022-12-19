@@ -436,9 +436,9 @@ p {
   color: var(--header-bg-color); */
 }
 
-.social-ul li:not(:first-child) {
+/* .social-ul li:not(:first-child) {
   margin-left: 10px;
-}
+} */
 
 /* .social-icon {
   width: 20px;
@@ -455,7 +455,7 @@ p {
   margin-left: 30px;
 } */
 
-.clients-link {
+/* .clients-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -466,8 +466,8 @@ p {
   border-radius: 10px;
 
   transition: color 250ms var(--transition-timing-function-all-hover-focus);
-}
-
+} */
+/* 
 .clients-svg {
   fill: grey;
 }
@@ -479,7 +479,7 @@ p {
 }
 
 .clients-svg {
-  fill: currentColor;
+  fill: currentColor; */
 }
 
 /* Фокус і ховер посилань */
@@ -631,14 +631,14 @@ p {
   letter-spacing: 0.03em;
 }
 /* Footer */
-.footer {
+/* .footer {
   background-color: var(--footer-bg-color);
-}
+} */
 
-.div-adress {
+/* .div-adress {
   margin-right: 70px;
-}
-
+} */
+/* 
 .logo-footer {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -648,7 +648,7 @@ p {
   text-decoration: none;
 
   color: var(--color-accent);
-}
+} */
 
 .socials {
   display: flex;
@@ -656,25 +656,25 @@ p {
 
   padding-bottom: 60px;
 }
-
+/* 
 .icon {
   display: inline-block;
 
   padding-top: 60px;
-}
+} */
 
-.nav-down {
-  width: 231px;
+/* .nav-down { */
+  /* width: 231px;
   margin-top: 20px;
 
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; */
 }
 
-.nav-down p {
+/* .nav-down p {
   transition: color 250ms var(--transition-timing-function-all-hover-focus);
 }
 
@@ -689,27 +689,27 @@ p {
 .number-mail .link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-}
-/* Приєднатися */
+} */
+/* Приєднатися
 .div-social {
   margin-right: 93px;
-}
+} */
 
-.social-footer {
+/* .social-footer {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
   color: var(--header-bg-color);
-}
+} */
 
 .social-link-footer {
   background-color: var(--background-color-socials-footer);
 }
-/*  */
+/* 
 .social-ul-footer {
   margin: 0;
   margin-top: 20px;
-}
+} */
 
 /* бекдроп і модельне вікно Studio */
 .is-hidden {

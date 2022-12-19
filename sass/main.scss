@@ -4,8 +4,8 @@
 @import './utils/mixins';
 @import './components/page-header';
 @import './components/logo';
-@import './components/_nav-header';
-@import './components/_contact-header';
+@import './components/nav-header';
+@import './components/contact';
 @import './components/hero';
 @import './components/advantages';
 @import './components/specifics';
@@ -14,3 +14,8 @@
 @import './components/social-networks';
 @import './components/clients';
 @import './components/clients__items';
+@import './components/footer';
+@import './components/address';
+@import './components/form-join';
+
+
