@@ -30,14 +30,14 @@
         <nav class="nav-header">
           <ul class="nav-header__items">
             <li>
-              <a
-                href="./index.html"
-                class="nav-header__link nav-header__link--current-page nav-header__link--current-page::after"
-                >Студія</a
-              >
+              <a href="./index.html" class="nav-header__link">Студія</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="nav-header__link">Портфоліо</a>
+              <a
+                href="./portfolio.html"
+                class="nav-header__link nav-header__link--current-page nav-header__link--current-page::after"
+                >Портфоліо</a
+              >
             </li>
             <li>
               <a href="" class="nav-header__link">Контакти</a>
@@ -67,198 +67,208 @@
     </header>
     <main>
       <!--Portfolio-->
+      <!-- Filter-buttons -->
       <section>
-        <div class="container">
-          <h1 class="title-hidden">Портфоліо</h1>
-          <ul class="buttons list">
-            <li class="item-button">
-              <button type="button" class="button">Усі</button>
+        <div class="container filter-buttons">
+          <h1 class="filter-buttons__title">Портфоліо</h1>
+          <!-- title-hidden -->
+          <ul class="filter-buttons__item">
+            <!-- buttons list -->
+            <li class="filter-buttons__items">
+              <!-- item-button -->
+              <button type="button" class="filter-buttons__button">Усі</button>
+              <!-- button -->
             </li>
-            <li class="item-button">
-              <button type="button" class="button">Веб-сайти</button>
+            <li class="filter-buttons__items">
+              <button type="button" class="filter-buttons__button">
+                Веб-сайти
+              </button>
             </li>
-            <li class="item-button">
-              <button type="button" class="button">Додатки</button>
+            <li class="filter-buttons__items">
+              <button type="button" class="filter-buttons__button">
+                Додатки
+              </button>
             </li>
-            <li class="item-button">
-              <button type="button" class="button">Дизайн</button>
+            <li class="filter-buttons__items">
+              <button type="button" class="filter-buttons__button">
+                Дизайн
+              </button>
             </li>
-            <li class="item-button">
-              <button type="button" class="button">Маркетинг</button>
+            <li class="filter-buttons__items">
+              <button type="button" class="filter-buttons__button">
+                Маркетинг
+              </button>
             </li>
           </ul>
-          <ul class="list container-portfolio">
-            <li class="picture">
-              <div class="picture-thumb">
+          <ul class="portfolio">
+            <!-- list container-portfolio -->
+            <li class="portfolio__card">
+              <!-- picture -->
+              <div class="card__container">
+                <!-- picture-thumb -->
+                <!-- picture-pic -->
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-6-2.jpg"
                   alt="Ноутбук"
                   width="370"
                 />
-                <p class="picture-text">
+                <!-- picture-text -->
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">Технокряк</h2>
-                <p class="text-portfolio">Веб-сайт</p>
+              <div class="card__box">
+                <!-- text-div -->
+                <h2 class="box__title">Технокряк</h2>
+                <!-- title-portfolio -->
+                <p class="box__text">Веб-сайт</p>
+                <!-- text-portfolio -->
               </div>
             </li>
-            <li class="picture">
-              <div class="picture-thumb">
+            <li class="portfolio__card">
+              <div class="card__container">
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-7-2.jpg"
                   alt="Баскетболісти"
                   width="370"
                 />
-                <p class="picture-text">
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="text-portfolio">Дизайн</p>
+              <div class="card__box">
+                <h2 class="box__title">Постер New Orlean vs Golden Star</h2>
+                <p class="box__text">Дизайн</p>
               </div>
             </li>
-            <li class="picture">
-              <div class="picture-thumb">
+            <li class="portfolio__card">
+              <div class="card__container">
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-8-2.jpg"
                   alt="Логотип"
                   width="370"
                 />
-                <p class="picture-text">
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">Ресторан Seafood</h2>
-                <p class="text-portfolio">Додаток</p>
+              <div class="card__box">
+                <h2 class="box__title">Ресторан Seafood</h2>
+                <p class="box__text">Додаток</p>
               </div>
             </li>
-            <li class="picture">
-              <div class="picture-thumb">
+            <li class="portfolio__card">
+              <div class="card__container">
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-9-2.jpg"
                   alt="Наушники"
                   width="370"
                 />
-                <p class="picture-text">
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">Проєкт Prime</h2>
-                <p class="text-portfolio">Маркетинг</p>
+              <div class="card__box">
+                <h2 class="box__title">Проєкт Prime</h2>
+                <p class="box__text">Маркетинг</p>
               </div>
             </li>
-            <li class="picture">
-              <div class="picture-thumb">
+            <li class="portfolio__card">
+              <div class="card__container">
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-10-2.jpg"
                   alt="Коробки"
                   width="370"
                 />
-                <p class="picture-text">
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">Проєкт Boxes</h2>
-                <p class="text-portfolio">Додаток</p>
+              <div class="card__box">
+                <h2 class="box__title">Проєкт Boxes</h2>
+                <p class="box__text">Додаток</p>
               </div>
             </li>
-            <li class="picture">
-              <div class="picture-thumb">
+            <li class="portfolio__card">
+              <div class="card__container">
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-11-2.jpg"
                   alt="Монітор"
                   width="370"
                 />
-                <p class="picture-text">
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">Inspiration has no Borders</h2>
-                <p class="text-portfolio">Веб-сайт</p>
+              <div class="card__box">
+                <h2 class="box__title">Inspiration has no Borders</h2>
+                <p class="box__text">Веб-сайт</p>
               </div>
             </li>
-            <li class="picture">
-              <div class="picture-thumb">
+            <li class="portfolio__card">
+              <div class="card__container">
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-12-2.jpg"
                   alt="Книга"
                   width="370"
                 />
-                <p class="picture-text">
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">Видання Limited Edition</h2>
-                <p class="text-portfolio">Дизайн</p>
+              <div class="card__box">
+                <h2 class="box__title">Видання Limited Edition</h2>
+                <p class="box__text">Дизайн</p>
               </div>
             </li>
-            <li class="picture">
-              <div class="picture-thumb">
+            <li class="portfolio__card">
+              <div class="card__container">
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-13-2.jpg"
                   alt="Рекламна бірка"
                   width="370"
                 />
-                <p class="picture-text">
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">Проєкт LAB</h2>
-                <p class="text-portfolio">Маркетинг</p>
+              <div class="card__box">
+                <h2 class="box__title">Проєкт LAB</h2>
+                <p class="box__text">Маркетинг</p>
               </div>
             </li>
-            <li class="picture">
-              <div class="picture-thumb">
+            <li class="portfolio__card">
+              <div class="card__container">
                 <img
-                  class="picture-pic"
                   src="./images/portfolio/img-14-2.jpg"
                   alt="Друк на клавіатурі"
                   width="370"
                 />
-                <p class="picture-text">
+                <p class="card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="text-div">
-                <h2 class="title-portfolio">Growing Business</h2>
-                <p class="text-portfolio">Додаток</p>
+              <div class="card__box">
+                <h2 class="box__title">Growing Business</h2>
+                <p class="box__text">Додаток</p>
               </div>
             </li>
           </ul>

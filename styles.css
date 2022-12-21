@@ -1,4 +1,4 @@
-Головний колір #F5F5F5
+/* Головний колір #F5F5F5 */
 /* Колір фону хедера #ffffff */
 /* Колір фону футера #2F303A */
 /* Основний колір тексту #212121 */
@@ -213,7 +213,7 @@ p {
 } */
 
 /* Чим займаємося */
-.list-img {
+/* .list-img {
   display: flex;
 }
 
@@ -246,7 +246,7 @@ p {
   border-radius: 4px;
   background-color: var(--background-color-section-box-one-li);
   color: var(--header-bg-color);
-}
+} */
 
 /* .title {
   margin-bottom: 50px;
@@ -482,12 +482,12 @@ p {
   fill: currentColor; */
 }
 
-/* Фокус і ховер посилань */
+/* Фокус і ховер посилань
 .link {
   transition: color 250ms var(--transition-timing-function-all-hover-focus);
-}
+} */
 
-.nav-down > p:hover,
+/* .nav-down > p:hover,
 .nav-down > p:focus,
 .list .link:hover,
 .list .link:focus,
@@ -498,24 +498,24 @@ p {
 
 .buttons .item-button + .item-button {
   margin-left: 8px;
-}
+} */
 
 /* параматри кнопок */
-.item-button > .button {
+/* .item-button > .button {
   padding: 6px 22px;
   border-radius: 4px;
   border-width: 0;
 
   background-color: var(--color-section);
-}
+} */
 
-.buttons {
+/* .buttons {
   display: flex;
   margin-bottom: 34px;
   justify-content: center;
-}
+} */
 
-.button {
+/* .button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -527,16 +527,16 @@ p {
   transition: box-shadow 250ms var(--transition-timing-function-all-hover-focus),
     color 250ms var(--transition-timing-function-all-hover-focus),
     backgroud-color 250ms var(--transition-timing-function-all-hover-focus);
-}
+} */
 
 /* Блок в портфоліо */
 /* Portfolio */
-.container-portfolio {
+/* .container-portfolio {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.container-portfolio .picture {
+/* .container-portfolio .picture {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -548,11 +548,11 @@ p {
   margin-right: 0;
 }
 .picture:nth-last-of-type(-n + 3) {
-  margin-bottom: 0;
+  margin-bottom: 0; */
 }
 
 /* Позиціонування портфоліо */
-.picture-pic {
+/* .picture-pic {
   display: block;
 }
 
@@ -560,9 +560,9 @@ p {
   position: relative;
 
   overflow: hidden;
-}
+} */
 
-.picture-text:hover,
+/* .picture-text:hover,
 .picture-text:focus,
 .picture:hover .picture-text,
 .picture:focus .picture-text {
@@ -586,10 +586,10 @@ p {
     opacity 250ms var(--transition-timing-function-all-hover-focus);
 
   color: var(--header-bg-color);
-  background-color: var(--background-color-portfolio-picture);
+  background-color: var(--background-color-portfolio-picture); */
 }
 
-.text-div {
+/* .text-div {
   padding: 20px 24px;
 
   border-left: 1px solid var(--border-portfolio-cards);
@@ -601,19 +601,19 @@ p {
 .container-portfolio .picture:focus {
   border-radius: 4px;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-}
+} */
 
 /* buttons */
-.button-studio,
+/* .button-studio,
 .button:hover,
 .button:focus {
   border: 2px;
   box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--header-bg-color);
-  background-color: var(--color-accent);
+  background-color: var(--color-accent); */
 }
 
-.list {
+/* .list {
   list-style: none;
 }
 
@@ -628,7 +628,7 @@ p {
 .text-portfolio {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; */
 }
 /* Footer */
 /* .footer {
@@ -650,11 +650,11 @@ p {
   color: var(--color-accent);
 } */
 
-.socials {
+/* .socials {
   display: flex;
   align-items: baseline;
 
-  padding-bottom: 60px;
+  padding-bottom: 60px; */
 }
 /* 
 .icon {
@@ -701,10 +701,10 @@ p {
   font-weight: 700;
   color: var(--header-bg-color);
 } */
-
+/* 
 .social-link-footer {
   background-color: var(--background-color-socials-footer);
-}
+} */
 /* 
 .social-ul-footer {
   margin: 0;
@@ -712,7 +712,7 @@ p {
 } */
 
 /* бекдроп і модельне вікно Studio */
-.is-hidden {
+/* .is-hidden {
   opacity: 1;
 
   visibility: hidden;
@@ -728,14 +728,14 @@ p {
   height: 100%;
 
   background-color: var(--bacground-color-backdrop);
-}
+} */
 
-.backdrop.is-hidden .backdrop-modal {
+/* .backdrop.is-hidden .backdrop-modal {
   transform: translate(-50%, -50%) scale(0);
   opacity: 0;
-}
+} */
 
-.backdrop-modal {
+/* .backdrop-modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -750,10 +750,10 @@ p {
     opacity 250ms var(--transition-timing-function-all-hover-focus);
 
   background-color: var(--header-bg-color);
-  border-radius: 4px;
+  border-radius: 4px; */
 }
 
-.backdrop-button {
+/* .backdrop-button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -768,9 +768,9 @@ p {
   transform: fill 250ms var(--transition-timing-function-all-hover-focus);
 
   cursor: pointer;
-}
+} */
 
-.backdrop-button:hover > .backdrop-svg,
+/* .backdrop-button:hover > .backdrop-svg,
 .backdrop-button:focus > .backdrop-svg {
   fill: var(--color-accent);
 }
@@ -780,7 +780,7 @@ p {
   width: 11px;
 }
 /* Форми модельне вікно */
-.form-modal {
+/* .form-modal {
   display: flex;
   flex-direction: column;
   padding: 40px;
@@ -793,13 +793,13 @@ p {
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.03;
-}
+} */
 
-.form-modal-div {
+/* .form-modal-div {
   display: flex;
   flex-direction: column;
-
-  margin-bottom: 10px;
+/*  */
+  /* margin-bottom: 10px;
 
   text-align: left;
   font-size: 12px;
@@ -810,7 +810,7 @@ p {
 }
 
 .form-modal-label {
-  margin-bottom: 4px;
+  margin-bottom: 4px; */ */ */
 }
 
 textarea {
@@ -837,13 +837,13 @@ textarea {
   color: var(--form-modal-color-text);
 }
 
-.form-modal-field {
+/* .form-modal-field {
   position: relative;
 
-  color: var(--form-modal-color-text);
+  color: var(--form-modal-color-text); */
 }
 
-.form-modal-input {
+/* .form-modal-input {
   padding: 11px;
   padding-left: 30px;
   width: 100%;
@@ -853,29 +853,29 @@ textarea {
 
   border: 1px solid var(--form-modal-border);
   border-radius: 4px;
-}
+} */
 
-.form-modal-input:hover,
+/* .form-modal-input:hover,
 .form-modal-input:focus {
   outline: none;
   border-color: var(--color-accent);
-}
+} */
 
-.form-modal-input:hover ~ .form-modal-svg,
+/* .form-modal-input:hover ~ .form-modal-svg,
 .form-modal-input:focus ~ .form-modal-svg {
   fill: var(--color-accent);
   border-color: var(--color-accent);
-}
-
+} */
+/* 
 .form-modal-svg {
   position: absolute;
   top: 50%;
   left: 12px;
 
   transform: translateY(-50%);
-}
+} */
 
-.form-modal-policy > a {
+/* .form-modal-policy > a {
   text-decoration-skip-ink: none;
 
   color: var(--color-accent);
@@ -889,7 +889,7 @@ textarea {
   margin-bottom: 20px;
 
   color: var(--secondary-text-color);
-}
+} */
 
 .checkbox {
   position: absolute;
