@@ -12,7 +12,7 @@
 }
 
 .checkbox__field {
-  position: relative;
+  position: absolute;
 
   width: 16px;
   height: 15px;
@@ -23,7 +23,6 @@
 }
 
 .checkbox__icon {
-  position: absolute;
   fill: $color-backgroud-header;
 
   margin-right: 7px;
@@ -31,9 +30,10 @@
   border: 2px solid $color-text-primary;
   border-radius: 2px;
 
-  transform: background-color 250ms $transition-timing-function-all-hover-focus;
+  transform: background-color 250ms $transition-timing-function-all-hover-focus,
+    border-color 250ms $transition-timing-function-all-hover-focus;
 
-  .checkbox__field:checked & {
+  .checkbox__field:checked ~ & {
     border-color: transparent;
     background-color: $color-accent;
   }

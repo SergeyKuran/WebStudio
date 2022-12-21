@@ -39,6 +39,6 @@
 
   .filter-buttons__items:hover &,
   .filter-buttons__items:focus & {
-        @include buttons-hover-focus;
+    @include buttons-hover-focus;
   }
 }

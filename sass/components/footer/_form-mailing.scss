@@ -60,9 +60,9 @@
 
   border: none;
   border-radius: 4px;
-  
+
   transition: box-shadow 250ms $transition-timing-function-all-hover-focus;
-  
+
   &:hover,
   &:focus {
     box-shadow: 0 4px $color-box-shadow-form-button;
@@ -71,6 +71,6 @@
 
 .form-mailing__icon {
   margin-left: 10px;
-  
+
   fill: currentColor;
 }

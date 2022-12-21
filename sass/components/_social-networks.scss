@@ -8,9 +8,22 @@
 }
 
 .social-networks__link {
-  @extend %socials-icon;
+  @include flex;
   width: 44px;
   height: 44px;
+
+  color: $color-social-link;
+
+  border-radius: 50%;
+
+  transition: background-color 250ms $transition-timing-function-all-hover-focus,
+    color 250ms $transition-timing-function-all-hover-focus;
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent;
+    color: $color-backgroud-header;
+  }
 }
 
 .social-networks__icon {

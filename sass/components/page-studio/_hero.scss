@@ -1,9 +1,7 @@
 .hero {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  @include flex;
 
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
@@ -20,6 +18,7 @@
     ),
     url("../images/hero/img-hero.jpg");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -60,6 +59,6 @@
 
   &:hover,
   &:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    @include buttons-hover-focus;
   }
 }

@@ -64,42 +64,6 @@ button {
   margin: -1px;
 }
 
-.social-networks__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #afb1b8;
-  border-radius: 50%;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-networks__link:hover, .social-networks__link:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
-.address__link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-align: center;
-  color: #757575;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.address__link:hover, .address__link:focus {
-  color: #2196f3;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -145,12 +109,11 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-header__link:hover, .nav-header__link:focus {
   color: #2196f3;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .nav-header__link--current-page {
@@ -196,39 +159,33 @@ button {
   text-decoration: none;
   text-align: center;
   color: #757575;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact__link:hover, .contact__link:focus {
   color: #2196f3;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .contact__icon {
   fill: #757575;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact__link:hover > .contact__icon, .contact__link:focus > .contact__icon {
   fill: #2196f3;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
@@ -239,6 +196,7 @@ button {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/img-hero.jpg");
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img-hero.jpg");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -270,8 +228,10 @@ button {
   cursor: pointer;
 }
 .hero__button:hover, .hero__button:focus {
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  background-color: #2196f3;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .advantages {
@@ -474,8 +434,25 @@ button {
 }
 
 .social-networks__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 44px;
   height: 44px;
+  color: #afb1b8;
+  border-radius: 50%;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-networks__link:hover, .social-networks__link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .social-networks__icon {
@@ -604,6 +581,20 @@ button {
 
 .address__text {
   color: #ffffff;
+}
+
+.address__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address__link:hover, .address__link:focus {
+  color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .form-join {
@@ -1073,7 +1064,7 @@ button {
 }
 
 .checkbox__field {
-  position: relative;
+  position: absolute;
   width: 16px;
   height: 15px;
   -webkit-appearance: none;
@@ -1083,15 +1074,14 @@ button {
 }
 
 .checkbox__icon {
-  position: absolute;
   fill: #ffffff;
   margin-right: 7px;
   border: 2px solid #212121;
   border-radius: 2px;
-  -webkit-transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-          transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox__field:checked .checkbox__icon {
+.checkbox__field:checked ~ .checkbox__icon {
   border-color: transparent;
   background-color: #2196f3;
 }
